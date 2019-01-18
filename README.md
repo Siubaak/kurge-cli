@@ -6,5 +6,7 @@ A cli tool to generate [Kurge](https://siubaak.github.io/kurge) scaffold.
 
 ```bash
 npm i -g kurge-cli
-kurge 
+kurge -i your-app
+cd your-app
+npm start
 ```
