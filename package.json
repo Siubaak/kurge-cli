@@ -1,6 +1,6 @@
 {
   "name": "kurge-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a cli tool to generate kurge scaffold",
   "main": "index.js",
   "bin": {

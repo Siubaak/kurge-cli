@@ -8,12 +8,11 @@ const program = require('commander')
 const package = require('./package')
 const { exec } = require('child_process')
 
-const spinner = ora('Generating app...').start()
-
 program.version(package.version)
   .option('-i, --init [app]', 'init a kurge scaffold', 'kurge')
   .parse(process.argv)
 
+const spinner = ora('Generating app...').start()
 if (fs.existsSync(program.init)) {
   throw new Error(`${program.init} app has already exists in current directory`)
 } else {
