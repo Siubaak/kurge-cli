@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "kurge": "0.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "grid": true,
+        "browsers": [
+          ">1%",
+          "last 2 versions"
+        ]
+      }
+    }
+  }
+}

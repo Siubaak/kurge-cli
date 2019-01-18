@@ -1,0 +1,31 @@
+{
+  "name": "kurge-cli",
+  "version": "1.0.1",
+  "description": "a cli tool to generate kurge scaffold",
+  "main": "index.js",
+  "bin": {
+    "kurge": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siubaak/kurge-cli.git"
+  },
+  "keywords": [
+    "kurge",
+    "cli"
+  ],
+  "author": "baakqiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Siubaak/kurge-cli/issues"
+  },
+  "homepage": "https://github.com/Siubaak/kurge-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.0.0"
+  }
+}
