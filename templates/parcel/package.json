@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "kurge": "0.1.0"
+    "kurge": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.5",
